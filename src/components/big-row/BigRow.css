@@ -1,0 +1,173 @@
+@media all and (min-width: 1440px) and (max-width: 2559px) {
+  .big-row-wrapper {
+    /* height: 508px; */
+    height: 570px;
+    background: var(--primary-color);
+    padding: 0px 60px 0px 60px;
+  }
+
+  .big-row-carousel {
+    /* height: 506px; */
+    /* height: 425px; */
+    height: 521px;
+  }
+
+  .big-row__title {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--tertiary-color);
+    margin: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-pagination {
+    position: relative !important;
+    padding: 42px 0px 0px 0px;
+  }
+
+  .swiper-pagination-bullet {
+    background-color: var(--gray-200-color);
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    border: none;
+    background-color: var(--secondary-color);
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    text-align: right;
+  }
+
+  .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    width: 100% !important;
+  }
+
+  .big-row__media-cards {
+    /* height: 450px; */
+    height: 465px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-bottom: 45px;
+    background-color: red;
+    /* margin: 10px 0px 50px 0px; */
+    /* background: green; */
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .big-row__media-cards.swiper-slide {
+    transition: 250ms all;
+  }
+
+  .big-row__media-cards.swiper-slide:hover {
+    transform-origin: center center;
+    border: 4px solid var(--secondary-color);
+    transition: border-color 1s ease-in-out;
+    z-index: 1;
+  }
+}
+
+@media all and (min-width: 2560px) {
+  .big-row-wrapper {
+    /* height: 508px; */
+    height: 700px;
+    background: var(--primary-color);
+    padding: 0px 60px 0px 60px;
+  }
+
+  .big-row-carousel {
+    /* height: 506px; */
+    /* height: 425px; */
+    height: 702px;
+  }
+
+  .big-row__title {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: var(--tertiary-color);
+    margin: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-pagination {
+    position: relative !important;
+    padding: 42px 0px 0px 0px;
+  }
+
+  .swiper-pagination-bullet {
+    background-color: var(--gray-200-color);
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    border: none;
+    background-color: var(--secondary-color);
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    text-align: right;
+  }
+
+  .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    width: 100% !important;
+  }
+
+  .big-row__media-cards {
+    /* height: 450px; */
+    height: 565px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-bottom: 45px;
+    background-color: red;
+    /* margin: 10px 0px 50px 0px; */
+    /* background: green; */
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .big-row__media-cards.swiper-slide {
+    transition: 250ms all;
+  }
+
+  .big-row__media-cards.swiper-slide:hover {
+    transform-origin: center center;
+    border: 4px solid var(--secondary-color);
+    transition: border-color 1s ease-in-out;
+    z-index: 1;
+  }
+}

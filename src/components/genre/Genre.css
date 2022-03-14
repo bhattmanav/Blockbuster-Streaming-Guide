@@ -1,0 +1,207 @@
+.genre-wrapper {
+}
+
+.genre__select-genre {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 88px;
+  background-color: var(--primary-color);
+  border-bottom: 3px solid var(--secondary-color);
+  z-index: 1;
+  padding: 0px 60px;
+}
+
+.genre__title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 32px;
+  color: var(--tertiary-color);
+  padding-right: 75px;
+}
+
+select {
+  width: auto;
+  height: 36px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("https://i.imgur.com/NFGQOsH.png");
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 28px auto, 100%;
+  font-size: 16px;
+  color: white;
+  border: 1px solid var(--secondary-color);
+  border-radius: 3px;
+  background-color: #212d4a;
+  /* padding: 0px 40px; */
+  padding-left: 20px;
+  padding-right: 40px;
+  margin-top: 6px;
+}
+
+select:hover,
+select:focus {
+  outline: none;
+}
+
+.genre__all-genre:hover,
+.genre__all-genre:focus {
+  outline: none;
+}
+
+.genre__gradient {
+  height: 43.5vh;
+  background-image: url("https://i.imgur.com/qRcMaKh.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 7px solid var(--secondary-color);
+}
+
+.genre__media {
+  height: 100vh;
+  background-color: var(--primary-color);
+}
+
+.genre__results {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1280px) and (max-width: 1919px) {
+  .genre__selected-results {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 245px);
+    justify-content: space-between;
+    grid-gap: 20px;
+    background-color: var(--primary-color);
+    overflow: hidden;
+    scroll-behavior: smooth;
+    padding: 120px 60px;
+  }
+
+  .genre__selected-result {
+    width: 245px;
+    height: 390px;
+    /* height: 420px; */
+    background-image: url("https://i.imgur.com/qRcMaKh.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* testing */
+    cursor: pointer;
+    transition: 250ms all;
+  }
+
+  .genre__selected-result:hover {
+    transform: scale(1.2);
+    transform-origin: center center;
+    transition: border-color 1s ease-in-out;
+    opacity: 1;
+    border: 4px solid #ffaa00;
+  }
+
+  .genre__selected-result:hover:first-child,
+  .genre__selected-result:hover:nth-child(5n + 1) {
+    transform: scale(1.2);
+    transform-origin: left center;
+    transition: border-color 1s ease-in-out;
+    opacity: 1;
+    border: 4px solid var(--secondary-color);
+  }
+
+  .genre__selected-result:hover:last-child,
+  .genre__selected-result:hover:nth-child(5n) {
+    transform: scale(1.2);
+    transform-origin: right center;
+    transition: border-color 1s ease-in-out;
+    opacity: 1;
+    border: 4px solid var(--secondary-color);
+  }
+
+  .genre__no-results {
+    width: 245px;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: white;
+    background-image: url("https://i.imgur.com/qRcMaKh.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 250ms all;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1920px) {
+  .genre__selected-results {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 328px);
+    justify-content: space-between;
+    grid-gap: 20px;
+    background-color: var(--primary-color);
+    padding: 120px 60px;
+  }
+
+  .genre__selected-result {
+    width: 328px;
+    height: 492px;
+    display: flex;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    background-image: url("https://i.imgur.com/qRcMaKh.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .genre__selected-result:hover {
+    transform: scale(1.2);
+    transform-origin: center center;
+    transition: border-color 1s ease-in-out;
+    opacity: 1;
+    border: 4px solid #ffaa00;
+  }
+
+  .genre__selected-result:hover:first-child,
+  .genre__selected-result:hover:nth-child(7n + 1) {
+    transform: scale(1.2);
+    transform-origin: left center;
+    transition: border-color 1s ease-in-out;
+    opacity: 1;
+    border: 4px solid var(--secondary-color);
+  }
+  .genre__selected-result:hover:last-child,
+  .genre__selected-result:hover:nth-child(7n) {
+    transform: scale(1.2);
+    transform-origin: right center;
+    transition: border-color 1s ease-in-out;
+    opacity: 1;
+    border: 4px solid var(--secondary-color);
+  }
+
+  .genre__no-results {
+    width: 328px;
+    height: 492px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    background-image: url("https://i.imgur.com/qRcMaKh.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 250ms all;
+  }
+}

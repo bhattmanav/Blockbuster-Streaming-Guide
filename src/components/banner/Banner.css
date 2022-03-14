@@ -1,0 +1,149 @@
+.banner-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(37, 37, 37, 0.05), rgba(37, 37, 37, 0.8)),
+    url("https://www.themoviedb.org/t/p/w1066_and_h600_bestv2/bZGAX8oMDm3Mo5i0ZPKh9G2OcaO.jpg")
+      no-repeat center;
+  background-size: cover;
+}
+
+.banner__graident-top {
+  /* height: 11rem; */
+  height: 8rem;
+  background-image: linear-gradient(
+    360deg,
+    transparent,
+    rgba(37, 37, 37, 0.75),
+    var(--background-color)
+  );
+}
+
+.banner__media-logo {
+  margin: 0;
+}
+
+.banner__media-title {
+  max-width: 300px;
+  font-size: 44px;
+  color: var(--tertiary-color);
+  margin: 0;
+}
+
+.banner__main-content {
+  width: 50vw;
+  padding: 0px 80px;
+}
+
+.banner__media-logo {
+  width: 324px;
+}
+
+.banner__media-seasons {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: white;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+.banner__media-guidance {
+  width: auto;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 3px;
+  background-color: #31343e;
+  padding: 3px 6px;
+  margin-right: 8px;
+}
+
+.banner__media-subtitles {
+  width: auto;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 3px;
+  background-color: #31343e;
+  padding: 6px;
+  margin-right: 8px;
+}
+
+.banner__media-release {
+  margin-right: 8px;
+}
+
+.banner__media-genre {
+  font-size: 12px;
+  color: white;
+}
+
+.banner__media-desc {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--gray-100-color);
+  padding-top: 8px;
+}
+
+.banner__media-info {
+  display: flex;
+  padding-top: 16px;
+}
+
+.banner__watch-now {
+  width: auto;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--background-color);
+  border: none;
+  border-radius: 4px;
+  background-color: var(--tertiary-color);
+  cursor: pointer;
+  padding: 0px 50px;
+  margin-right: 16px;
+}
+
+.banner__additional-info {
+  width: auto;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--tertiary-color);
+  border: 1px solid var(--tertiary-color);
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0px 50px;
+}
+
+.banner__graident-bottom {
+  width: 100vw;
+  height: 10rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.7),
+    /* var(--background-color) */ var(--primary-color)
+  );
+}

@@ -1,0 +1,153 @@
+.body-login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: var(--primary-color);
+}
+
+.body-login__create {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--primary-color);
+  padding: 0px 60px;
+}
+
+/* .body-login__step {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--tertiary-color);
+} */
+
+.body-login__heading {
+  font-size: 44px;
+  font-weight: bold;
+  color: var(--tertiary-color);
+  margin: 10px 0px;
+}
+
+.body-login__sub-heading {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--tertiary-color);
+  margin: 10px 0px 25px 0px;
+}
+
+.body-login__error {
+  height: auto;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #721c24;
+  background-color: var(--error-color);
+  border: none;
+  border-radius: 0.25rem;
+  margin-bottom: 16px;
+  padding: 16px 8px;
+}
+
+.body-login__create-account-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.body-login__email-label {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--tertiary-color);
+  margin: 5px 0px;
+}
+
+.body-login__email {
+  height: 48px;
+  font-size: 16px;
+  color: var(--background-color);
+  padding: 0px 20px;
+  margin: 0px 0px 25px 0px;
+}
+
+.body-login__password-label {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--tertiary-color);
+  margin: 5px 0px;
+}
+
+.body-login__password {
+  height: 48px;
+  font-size: 16px;
+  color: var(--background-color);
+  padding: 0px 20px;
+  margin: 0px 0px 40px 0px;
+}
+
+.body-login__email:hover,
+.body-login__email:focus,
+.body-login__password:hover,
+.body-login__password:focus {
+  outline: none;
+}
+
+.body-login__submit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-login__submit {
+  height: 48px;
+  width: 60%;
+  font-size: 24px;
+  color: var(--background-color);
+  border: none;
+  border-radius: 4px;
+  background-color: var(--secondary-color);
+  cursor: pointer;
+  padding: 0px 50px;
+}
+
+.body-login__account-exists {
+  font-size: 20px;
+  color: var(--gray-200-color);
+  margin-top: 16px;
+}
+
+.body-login__transfer {
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.body-login__images {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(21, 34, 64, 0.7), rgba(21, 34, 64, 0.7)),
+    url("https://cdn.vox-cdn.com/thumbor/-_58CyCjSLS36byYJ3jyjvy4Akg=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/9871033/Movies_end_of_year_2017.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 60px;
+}
+
+.body-login__images-logo {
+  width: 405px;
+  height: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.body-login__images-heading {
+  max-width: 350px;
+  /* max-width: 500px; */
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--tertiary-color);
+}

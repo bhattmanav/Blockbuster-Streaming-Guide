@@ -1,0 +1,79 @@
+.banner-home-wrapper {
+  width: 100vw;
+  height: 100vh;
+  /* background: linear-gradient(rgba(37, 37, 37, 0.05), rgba(37, 37, 37, 0.8)),
+      url("https://www.themoviedb.org/t/p/w1066_and_h600_bestv2/620hnMVLu6RSZW6a5rwO8gqpt0t.jpg")
+        no-repeat center; */
+}
+
+.banner-home__gradient {
+  height: 11rem;
+  background-image: linear-gradient(
+    360deg,
+    transparent,
+    rgba(37, 37, 37, 0.75),
+    var(--background-color)
+  );
+}
+
+.banner-home__content {
+  width: 45vw;
+  padding: 30px 60px;
+}
+
+.banner-home__logo {
+  width: 500px;
+  height: auto;
+  padding: 0px 0px 16px 0px;
+}
+
+.banner-home__desc {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--gray-100-color);
+  padding: 16px 0px;
+}
+
+.banner-home__watch {
+  display: flex;
+}
+
+.banner-home__watch-now,
+.banner-home__learn {
+  width: auto;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--background-color);
+  border: none;
+  border-radius: 4px;
+  background-color: var(--tertiary-color);
+  cursor: pointer;
+  padding: 0px 50px;
+  margin-right: 16px;
+}
+
+.banner-home__learn {
+  color: var(--tertiary-color);
+  border: 1px solid var(--tertiary-color);
+  background-color: transparent;
+}
+
+.banner-home__gradient-bottom {
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 15.75rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.7),
+    var(--primary-color)
+  );
+}

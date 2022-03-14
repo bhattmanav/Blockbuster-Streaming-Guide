@@ -1,0 +1,108 @@
+.body-signup {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-signup__details {
+  width: 35vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* background-color: blue; */
+}
+
+.body-signup__step {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--gray-200-color);
+  padding-bottom: 8px;
+}
+
+.body-signup__heading {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--gray-100-color);
+  padding-bottom: 32px;
+}
+
+.body-signup__error {
+  height: auto;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #721c24;
+  background-color: var(--error-color);
+  border: none;
+  border-radius: 0.25rem;
+  margin-bottom: 16px;
+  padding: 16px 8px;
+}
+
+.body-signup__email,
+.body-signup__password {
+  height: 58px;
+  font-size: 16px;
+  color: var(--gray-100-color);
+  background-color: #25314d;
+  border: none;
+  border-radius: 5px;
+  padding: 0px 20px;
+  margin: 0px 0px 40px 0px;
+}
+
+.body-signup__email::placeholder {
+  color: var(--gray-200-color);
+}
+
+.body-signup__email:focus {
+  outline: none;
+  /* border: 0.5px solid var(--gray-100-color); */
+  border: 0.75px solid var(--secondary-color);
+}
+
+.body-signup__password::placeholder {
+  color: var(--gray-200-color);
+}
+
+.body-signup__password:focus {
+  outline: none;
+  border: 0.75px solid var(--secondary-color);
+}
+
+.body-signup__agree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.body-signup__agree-checkbox {
+  width: 50px;
+  height: 50px;
+  margin-left: 8px;
+  margin-right: 16px;
+}
+
+.body-signup__text {
+  font-size: 14px;
+  color: var(--gray-200-color);
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.body-signup__next {
+  height: 58px;
+  font-size: 24px;
+  color: var(--gray-100-color);
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0px 20px;
+  margin: 0px 0px 40px 0px;
+}

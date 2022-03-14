@@ -1,0 +1,193 @@
+@media all and (min-width: 1440px) and (max-width: 2559px) {
+  .seasons-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    padding: 0px 60px 60px 60px;
+  }
+
+  .seasons__change-seasons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .seasons__title {
+    font-size: 24px;
+    color: white;
+  }
+
+  .seasons {
+  }
+
+  .seasons__select-season {
+  }
+
+  .seasons__episodes {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+    gap: 25.3px;
+  }
+
+  .seasons__episode {
+    width: 49%;
+    /* height: auto; */
+    height: 128px;
+    display: flex;
+    background-color: #1a2644;
+    border-radius: 6px;
+    margin: 0;
+  }
+
+  .seasons__episode-image {
+    /* width: 220px; */
+    width: 28vw;
+    /* height: 100%; */
+    object-fit: cover;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+
+  .seasons__select-season {
+  }
+
+  .seasons__episode-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px 16px;
+  }
+
+  .seasons__episode-top-container {
+    width: 100%;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-bottom: 16px; */
+  }
+
+  .seasons__episode-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-right: 20px;
+  }
+
+  .seasons__episode-time {
+    width: 66px;
+    font-size: 14.5px;
+    color: var(--gray-200-color);
+    /* color: var(--secondary-color); */
+  }
+
+  .seasons__episode-desc {
+    width: 100%;
+    font-size: 16px;
+    color: var(--gray-300-color);
+    margin: 0;
+    padding-top: 16px;
+  }
+}
+
+@media all and (min-width: 2560px) {
+  .seasons-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    padding: 0px 60px 60px 60px;
+  }
+
+  .seasons__change-seasons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .seasons__title {
+    font-size: 32px;
+    color: white;
+  }
+
+  .seasons {
+  }
+
+  .seasons__select-season {
+  }
+
+  .seasons__episodes {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+    gap: 48px;
+  }
+
+  .seasons__episode {
+    width: 49%;
+    /* height: auto; */
+    height: 178px;
+    display: flex;
+    background-color: #1a2644;
+    border-radius: 6px;
+    margin: 0;
+  }
+
+  .seasons__episode-image {
+    /* width: 220px; */
+    width: 28vw;
+    /* height: 100%; */
+    object-fit: cover;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+
+  .seasons__select-season {
+  }
+
+  .seasons__episode-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px 16px;
+  }
+
+  .seasons__episode-top-container {
+    width: 100%;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-bottom: 16px; */
+  }
+
+  .seasons__episode-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-right: 20px;
+  }
+
+  .seasons__episode-time {
+    width: 66px;
+    font-size: 14.5px;
+    color: var(--gray-200-color);
+    /* color: var(--secondary-color); */
+  }
+
+  .seasons__episode-desc {
+    width: 100%;
+    font-size: 16px;
+    color: var(--gray-300-color);
+    margin: 0;
+    padding-top: 16px;
+  }
+}
